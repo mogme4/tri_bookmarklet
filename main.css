@@ -1,1 +1,6 @@
+body {font-size: 75%;}
+.input-item {display:grid; grid-template-columns: 75px auto; grid-template-areas:"label input"; width: 100%; margin-bottom: 5px}
+.input-item > input {grid-area:input;}
+.input-item > label {grid-area:label;}
 
+fieldset {box-sizing: border-box;  border-style: none; padding: 0px;}
